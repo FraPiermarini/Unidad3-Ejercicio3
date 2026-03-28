@@ -12,9 +12,8 @@ import lombok.AllArgsConstructor;
 public class ProductoExistByNameService implements IProductoExistByNameService {
 
     private final IProductoRepository productoRepository;
-    
-    @Override
-    public boolean existByName(String nombre) {
-        return productoRepository.existsByNombre(nombre);
-    }
+@Override
+public boolean existsByNombre(String nombre) {
+    return productoRepository.existsByNombreIgnoreCase(nombre);
+}
 }

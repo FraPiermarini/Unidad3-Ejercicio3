@@ -3,6 +3,7 @@ package com.programacion4.unidad3ej3.feature.producto.mappers;
 import com.programacion4.unidad3ej3.feature.producto.dtos.request.ProductoCreateRequestDto;
 import com.programacion4.unidad3ej3.feature.producto.dtos.response.ProductoResponseDto;
 import com.programacion4.unidad3ej3.feature.producto.models.Producto;
+import com.programacion4.unidad3ej3.feature.producto.mappers.ProductoMapper;
 
 public class ProductoMapper {
     

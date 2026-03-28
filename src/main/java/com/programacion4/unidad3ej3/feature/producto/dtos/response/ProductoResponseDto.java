@@ -1,4 +1,5 @@
 package com.programacion4.unidad3ej3.feature.producto.dtos.response;
+import com.programacion4.unidad3ej3.feature.producto.dtos.response.ProductoResponseDto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
